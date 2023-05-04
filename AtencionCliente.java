@@ -54,7 +54,7 @@ public class AtencionCliente {
 
                 System.exit(0);
             }
-           // seguirAtendiendo = preguntarSiAtenderOtroPaciente();
+       
         }
 
     }
@@ -77,7 +77,7 @@ public class AtencionCliente {
             }
         }
     }
-
+//datos de atencion
     private static void datosDeAtencion() {
         System.out.println("=============================================");
         System.out.println("Ingrese datos de atención del paciente");
@@ -99,7 +99,7 @@ public class AtencionCliente {
 
         indiceConsulta++;
     }
-
+// iniciar tratamiento y agredando mas detalles
     private static boolean iniciaTratamiento() {
         System.out.print("¿Inicia seccion de terapia? (SI/NO): ");
         String respuesta = sc.nextLine().toLowerCase();
@@ -188,6 +188,4 @@ public class AtencionCliente {
         System.out.println("Historia registrada exitosamente!");
         System.out.println("=============================================");
     }
-
-
 }
