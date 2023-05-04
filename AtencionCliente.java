@@ -1,6 +1,8 @@
 package fisioLife;
 import java.util.Scanner;
 
+
+
 public class AtencionCliente {
     private static Scanner sc = new Scanner(System.in);
     private static boolean esPrimeraConsulta = true;
